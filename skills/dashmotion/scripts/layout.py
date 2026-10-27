@@ -406,7 +406,8 @@ class Layout:
             raise ValueError(
                 "dashmotion: cannot render — invalid graph:\n  - "
                 + "\n  - ".join(errors))
-        self.mode = graph.get("mode", "flow")
+        # Seaynic Labs change: only two modes exist; any other value would be written into the HTML unescaped.
+        self.mode = "flow" if graph.get("mode", "flow") == "flow" else "architecture"
         self.title = graph.get("title", "diagram")
         self.nodes = [Node(n) for n in graph["nodes"]]
         self.by_id = {n.id: n for n in self.nodes}

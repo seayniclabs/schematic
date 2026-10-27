@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-10-27
+
+- Security: `dashmotion`'s `mode` value is normalized to `flow` or `architecture` before it is written into the generated HTML. A crafted value could previously inject script into the diagram page.
+
 ## 0.1.0 - 2026-10-27
 
 First release. Skills only: no server, no network calls.

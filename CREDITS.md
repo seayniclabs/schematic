@@ -12,3 +12,7 @@ It includes skills written by others, used under their licenses. Each skill fold
 Copyright notices: `dashmotion`, Copyright (c) 2026 Mars (csthink). `architecture-diagram`, Copyright (c) 2025 Cocoon AI.
 
 Skills by Seaynic Labs: `getting-started`, `diagram`, `network-diagram`, `visualize`.
+
+## Changes we made to credited skills
+
+- `dashmotion/scripts/layout.py`: the diagram `mode` is normalized to `flow` or `architecture` before it is written into the generated HTML (it was inserted unescaped).
