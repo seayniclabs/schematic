@@ -1,0 +1,10 @@
+{
+  "name": "schematic",
+  "version": "0.1.0",
+  "description": "Diagram skills for your AI assistant: editable draw.io files, network maps, codebase maps, and animated or dark architecture diagrams. Skills only, no server. By Seaynic Labs.",
+  "author": { "name": "Seaynic Labs", "url": "https://seayniclabs.com" },
+  "homepage": "https://github.com/seayniclabs/schematic",
+  "repository": "https://github.com/seayniclabs/schematic",
+  "license": "MIT",
+  "keywords": ["skills", "diagrams", "draw.io", "architecture", "network", "mermaid"]
+}
