@@ -15,4 +15,4 @@ Skills by Seaynic Labs: `getting-started`, `diagram`, `network-diagram`, `visual
 
 ## Changes we made to credited skills
 
-- `dashmotion/scripts/layout.py`: the diagram `mode` is normalized to `flow` or `architecture` before it is written into the generated HTML (it was inserted unescaped).
+- `dashmotion/scripts/layout.py`: the diagram `mode` is normalized to `flow` or `architecture` before it is written into the generated HTML (it was inserted unescaped). Reported upstream: https://github.com/csthink/dashmotion/issues/3
