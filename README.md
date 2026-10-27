@@ -38,6 +38,10 @@ Audience: developers and small teams who want diagrams that live in their repo, 
 4. "Animate our deploy pipeline (build, test, stage, approve, release) for the landing page."
 5. "Explain the password reset flow as a sequence diagram I can edit in draw.io."
 
+The `diagram` skill wrote this one. GitHub shows it as an image, and draw.io opens the same file for editing ([open in draw.io](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fseayniclabs%2Fschematic%2Fmain%2Fexamples%2Fhomelab-request-path.drawio.svg)).
+
+![Homelab request path: browser, Cloudflare Tunnel, Nginx Proxy Manager, app container, Postgres, with Uptime Kuma checking the app](examples/homelab-request-path.drawio.svg)
+
 ## Security
 
 Schematic is skills only. It has:
